@@ -113,17 +113,35 @@ Algumas aplicações no Projeto:
 * **Proteção Cross-Site Scripting (XSS):** Todas as saídas de dados vindas de requisições URL ($_GET) ou banco de dados utilizam a função htmlspecialchars() antes de serem exibidas na tela.
 
 ### Bibliografia/referência:
-Sites para estudo e aperfeiçoamento do código;
-•	HTML
+
+* **Sites para estudo e aperfeiçoamento do código;**
+
+* **HTML**
+  
+```
 https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements
-•	PHP
+````
+
+* **PHP**
+```
 https://www.php.net/manual/pt_BR/index.php
-•	PHP MySQLi
+```
+
+* **PHP MySQLi**
+```
 https://www.php.net/manual/pt_BR/book.mysqli.php
-•	JavaScript
+```
+
+* **JavaScript**
+```
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide
-•	Bootstrap
+```
+
+* **Bootstrap**
+```
 https://getbootstrap.com/
+```
+
 •	W3 SCHOOLS
 https://www.w3schools.com/
 •	FREE FRONTEND
