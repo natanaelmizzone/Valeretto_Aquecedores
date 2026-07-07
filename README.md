@@ -1,4 +1,5 @@
-##VALERETTO
+##VALERETTO##
+
 #Sistema de Gestão e Cadastros de Produtos
 Este é um sistema web no formato ecommercer de GESTÃO DE PRODUTOS, está sendo desenvolvido em HTML, CSS, PHP, JAVASCRIPT e MySQLi, estilizado com Bootstrap, para documentação em MARKDOWN e estruturação FIGMA. O projeto conta com um painel administrativo protegido por sessões de login, definido para o gerenciamento de clientes e controle total de produtos (CRUD), também realizamos o software na IE Visual Studio - C# (CSharp) para cadastro e saida de produto diretamente com o administrador/vendedor.
 #Funcionalidades Principais
@@ -9,6 +10,9 @@ o	Listagem e cadastros em tempo real de todos os produtos.
 o	CRUD de Produtos: Cadastrar, Visualizar, Editar e Excluir, protegido contra usuários não autorizados.
 #Estrutura do Banco de Dados (MySQL)
 O sistema utiliza uma tabela, estruturada da seguinte forma:
+
+---
+```
 Tabela de Produtos (tb_produto)
 CREATE TABLE tb_produto (
     id_produto INT AUTO_INCREMENT PRIMARY KEY,
@@ -18,9 +22,9 @@ CREATE TABLE tb_produto (
     estoque_produto INT(5) NOT NULL,
     imagem_produto VARCHAR(255)
 );
+```
 
-
-
+---
 
 
 
