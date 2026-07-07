@@ -112,9 +112,8 @@ Algumas aplicações no Projeto:
 
 * **Proteção Cross-Site Scripting (XSS):** Todas as saídas de dados vindas de requisições URL ($_GET) ou banco de dados utilizam a função htmlspecialchars() antes de serem exibidas na tela.
 
-### Bibliografia/referência:
-
-* **Sites para estudo e aperfeiçoamento do código;**
+## Bibliografia/referência:
+### Sites para estudo e aperfeiçoamento do código;
 
 * **HTML**
   
@@ -142,14 +141,29 @@ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide
 https://getbootstrap.com/
 ```
 
-•	W3 SCHOOLS
+* **W3 SCHOOLS**
+```
 https://www.w3schools.com/
-•	FREE FRONTEND
+```
+
+* **FREE FRONTEND**
+```
 https://freefrontend.com/bootstrap-cards/
-•	ADOBE COLOR
+```
+
+* **ADOBE COLOR**
+```
 https://color.adobe.com/
-•	C#(CSHARP)
+```
+
+* **C#(CSHARP)**
+```
 https://learn.microsoft.com/pt-br/dotnet/csharp/
-•	DBDESIGN
+```
+
+* **DBDESIGN**
+  
+```
 https://dbdesign.io/pt-BR/
+```
 
