@@ -29,10 +29,11 @@ CREATE TABLE tb_produto (
 ---
 
 
+# Projeto
+
+Abaixo está a organização de cada arquivo no repositório:
 
 ```
-# Projeto
-Abaixo está a organização de cada arquivo no repositório:
 Inicio
 
 index.php>
