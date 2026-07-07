@@ -94,7 +94,7 @@ https://www.figma.com/design/3wvLkSiIYYMDsv2H6IPb6L/PROJETO-INTEGRADOR--c%C3%B3p
   
 1.	Clone este repositório para a pasta pública do seu servidor local atráves do XAMPP: clique em start no Apache e no MySQL, aguarde conectar.
 2.	Importe o banco de dados utilizando o DBeaver, selecionando também o MySQL.
-3.	Acesse o projeto no VScode, abra o terminal na aba acima.
+3.	Acesse o projeto no ``VScode``, abra o terminal na aba acima.
 4.	Escreva o local do seu computador "php -S localhost:"
 5.	Abra o navegador e acesse:
 o	Index: http://localhost/"numero que vai gerar"/index.php
