@@ -90,10 +90,8 @@ https://www.figma.com/design/3wvLkSiIYYMDsv2H6IPb6L/PROJETO-INTEGRADOR--c%C3%B3p
 ```
 
 
-
-
-
-* **Como Executar o Projeto Localmente** 
+* **Como Executar o Projeto Localmente**
+  
 1.	Clone este repositório para a pasta pública do seu servidor local atráves do XAMPP: clique em start no Apache e no MySQL, aguarde conectar.
 2.	Importe o banco de dados utilizando o DBeaver, selecionando também o MySQL.
 3.	Acesse o projeto no VScode, abra o terminal na aba acima.
@@ -102,7 +100,9 @@ https://www.figma.com/design/3wvLkSiIYYMDsv2H6IPb6L/PROJETO-INTEGRADOR--c%C3%B3p
 o	Index: http://localhost/"numero que vai gerar"/index.php
 o	Área do Admin: http://localhost/"numero que vai gerar"/admin-login.php
 6.	Irá reproduzir o conteúdo no navegador.
-Validação de segurança
+   
+# Validação de segurança
+
 Para criação de um ecommercer deve-se utilizar todos os metodos mais seguros contra vazamento de informações.
 Algumas aplicações no Projeto:
 •	Prepared Statements (Consultas Preparadas): Todos os comandos de inserção e busca utilizam mysqli_prepare e mysqli_stmt_bind_param. Isso neutraliza completamente ataques de SQL Injection.
