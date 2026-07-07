@@ -19,7 +19,7 @@ O sistema utiliza uma tabela, estruturada da seguinte forma:
 ```
 Tabela de Produtos (tb_produto)
 CREATE TABLE tb_produto (
-    id_produto INT AUTO_INCREMENT <span style="color-red">PRIMARY KEY</span>,
+    id_produto INT AUTO_INCREMENT <span style="color:red">PRIMARY KEY</span>,
     nome_produto VARCHAR(100) NOT NULL,
     descricao_produto VARCHAR(1000),
     preco_produto DECIMAL(10,2) NOT NULL,
