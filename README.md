@@ -75,15 +75,15 @@ produto-atualizar.php> Salva os produtos cadastrados em cards na tela inicial.
 ```
 
 
-# FIGMA: Caso de Uso - Fluxograma - DER (Diagrama)**
-Figma - Projeto Valeretto
+* **FIGMA: Caso de Uso - Fluxograma - DER (Diagrama)**
+
 
 ```
 https://www.figma.com/board/RgMUPqTYb7iAYrL9TCX8i7/CASO-DE-USO-E-FLUXOGRAMA?node-id=0-1&p=f&t=QxOB3TBdOoiQ9E9t-0
 ```
 
 * **FIGMA: MoodBoard - SiteMap - WireFrame/Prótotipo**
-Figma - Projeto Valeretto
+
 
 ```
 https://www.figma.com/design/3wvLkSiIYYMDsv2H6IPb6L/PROJETO-INTEGRADOR--c%C3%B3pia-?t=QxOB3TBdOoiQ9E9t-0
