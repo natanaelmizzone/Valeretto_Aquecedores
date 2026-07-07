@@ -1,13 +1,14 @@
 ## VALERETTO
 
 # Sistema de Gestão e Cadastros de Produtos
-Este é um sistema web no formato ecommercer de **GESTÃO DE PRODUTOS**, está sendo desenvolvido em **HTML**, **CSS**, **PHP**, **JAVASCRIPT** e **MySQLi**, estilizado com **Bootstrap**, para documentação em **MARKDOWN** e estruturação **FIGMA**. O projeto conta com um painel administrativo protegido por sessões de login, definido para o gerenciamento de clientes e controle total de produtos **(CRUD)**, também realizamos o software na *IE* Visual Studio - C# (CSharp)** para cadastro e saida de produto diretamente com o administrador/vendedor.
+Este é um sistema web no formato ecommercer de **GESTÃO DE PRODUTOS**, está sendo desenvolvido em **HTML**, **CSS**, **PHP**, **JAVASCRIPT** e **MySQLi**, estilizado com **Bootstrap**, para documentação em **MARKDOWN** e estruturação **FIGMA**. O projeto conta com um painel administrativo protegido por sessões de login, definido para o gerenciamento de clientes e controle total de produtos **(CRUD)**, também realizamos o software na *IE* **Visual Studio - C# (CSharp)** para cadastro e saida de produto diretamente com o administrador/vendedor.
+
 #Funcionalidades Principais
 •	Área Administrativa (Painel Administrativo):
 o	Autenticação independente para o Administrador.
-o	Bloqueio e trava de segurança por sessões (session_start) contra acessos diretos via URL.
+o	Bloqueio e trava de segurança por sessões **(session_start)** contra acessos diretos via URL.
 o	Listagem e cadastros em tempo real de todos os produtos.
-o	**CRUD** de Produtos: Cadastrar, Visualizar, Editar e Excluir, protegido contra usuários não autorizados.
+o	**CRUD** de Produtos: **Cadastrar**, **Visualizar**, **Editar** e **Excluir**, protegido contra usuários não autorizados.
 
 # Estrutura do Banco de Dados (MySQL)
 
@@ -75,7 +76,6 @@ produto-atualizar.php> Salva os produtos cadastrados em cards na tela inicial.
 
 # FIGMA: Caso de Uso - Fluxograma - DER (Diagrama)**
 Figma - Projeto Valeretto
-URL (Público Visualizar):
 
 ```
 https://www.figma.com/board/RgMUPqTYb7iAYrL9TCX8i7/CASO-DE-USO-E-FLUXOGRAMA?node-id=0-1&p=f&t=QxOB3TBdOoiQ9E9t-0
@@ -83,7 +83,6 @@ https://www.figma.com/board/RgMUPqTYb7iAYrL9TCX8i7/CASO-DE-USO-E-FLUXOGRAMA?node
 
 * **FIGMA: MoodBoard - SiteMap - WireFrame/Prótotipo**
 Figma - Projeto Valeretto
-URL (Público Visualizar):
 
 ```
 https://www.figma.com/design/3wvLkSiIYYMDsv2H6IPb6L/PROJETO-INTEGRADOR--c%C3%B3pia-?t=QxOB3TBdOoiQ9E9t-0
@@ -95,7 +94,7 @@ https://www.figma.com/design/3wvLkSiIYYMDsv2H6IPb6L/PROJETO-INTEGRADOR--c%C3%B3p
 1.	Clone este repositório para a pasta pública do seu servidor local atráves do ``XAMPP``: clique em start no Apache e no ``MySQL``, aguarde conectar.
 2.	Importe o banco de dados utilizando o DBeaver, selecionando também o ``MySQL``.
 3.	Acesse o projeto no ``VScode``, abra o terminal na aba acima.
-4.	Escreva o local do seu computador "php -S localhost:"
+4.	Escreva o local do seu computador ``"php -S localhost:"``
 5.	Abra o navegador e acesse:
 o	Index: ```http://localhost/"numero que vai gerar"/index.php```
 o	Área do Admin: ```http://localhost/"numero que vai gerar"/admin-login.php```
