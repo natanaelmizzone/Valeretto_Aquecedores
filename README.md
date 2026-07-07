@@ -112,14 +112,7 @@ Algumas aplicações no Projeto:
 
 * **Proteção Cross-Site Scripting (XSS):** Todas as saídas de dados vindas de requisições URL ($_GET) ou banco de dados utilizam a função htmlspecialchars() antes de serem exibidas na tela.
 
-
-
-
-
-
-
-
-Bibliografia/referência:##
+### Bibliografia/referência:
 Sites para estudo e aperfeiçoamento do código;
 •	HTML
 https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements
