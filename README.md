@@ -90,7 +90,7 @@ https://www.figma.com/design/3wvLkSiIYYMDsv2H6IPb6L/PROJETO-INTEGRADOR--c%C3%B3p
 ```
 
 
-* **Como Executar o Projeto Localmente**
+# Como Executar o Projeto Localmente
   
 1.	Clone este repositório para a pasta pública do seu servidor local atráves do XAMPP: clique em start no Apache e no MySQL, aguarde conectar.
 2.	Importe o banco de dados utilizando o DBeaver, selecionando também o MySQL.
@@ -105,11 +105,12 @@ o	Área do Admin: http://localhost/"numero que vai gerar"/admin-login.php
 
 Para criação de um ecommercer deve-se utilizar todos os metodos mais seguros contra vazamento de informações.
 Algumas aplicações no Projeto:
-•	Prepared Statements (Consultas Preparadas): Todos os comandos de inserção e busca utilizam mysqli_prepare e mysqli_stmt_bind_param. Isso neutraliza completamente ataques de SQL Injection.
-•	
-•	Proteção de Páginas via Sessão: Arquivos cruciais como pag-admin.php, produto-excluir.php e produto-formulario.php incluem o script admin-trava.php na primeira linha. Se um usuário não autenticado tentar acessar o link diretamente, a execução é abortada (exit()) e ele é redirecionado ao login.
-•	
-•	Proteção Cross-Site Scripting (XSS): Todas as saídas de dados vindas de requisições URL ($_GET) ou banco de dados utilizam a função htmlspecialchars() antes de serem exibidas na tela.
+
+* **Prepared Statements (Consultas Preparadas):** Todos os comandos de inserção e busca utilizam mysqli_prepare e mysqli_stmt_bind_param. Isso neutraliza completamente ataques de SQL Injection.
+  
+* **Proteção de Páginas via Sessão:** Arquivos cruciais como pag-admin.php, produto-excluir.php e produto-formulario.php incluem o script admin-trava.php na primeira linha. Se um usuário não autenticado tentar acessar o link diretamente, a execução é abortada (exit()) e ele é redirecionado ao login.
+
+* **Proteção Cross-Site Scripting (XSS):** Todas as saídas de dados vindas de requisições URL ($_GET) ou banco de dados utilizam a função htmlspecialchars() antes de serem exibidas na tela.
 
 
 
