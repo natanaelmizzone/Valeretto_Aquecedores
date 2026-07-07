@@ -1,4 +1,4 @@
-##VALERETTO##
+* **VALERETTO**
 
 #Sistema de Gestão e Cadastros de Produtos
 Este é um sistema web no formato ecommercer de GESTÃO DE PRODUTOS, está sendo desenvolvido em HTML, CSS, PHP, JAVASCRIPT e MySQLi, estilizado com Bootstrap, para documentação em MARKDOWN e estruturação FIGMA. O projeto conta com um painel administrativo protegido por sessões de login, definido para o gerenciamento de clientes e controle total de produtos (CRUD), também realizamos o software na IE Visual Studio - C# (CSharp) para cadastro e saida de produto diretamente com o administrador/vendedor.
@@ -35,7 +35,7 @@ Inicio
 
 index.php>
 
-Conteúdo de inclusão nas paginas
+* **Conteúdo de inclusão nas paginas**
 
 inc-conexao.php> Conexão com o Banco de Dados (MySQLi)
 inc-cabecalho.php> Inicio do site e links do Bootstrap
@@ -47,7 +47,7 @@ inc-depoimento.php> Depoimentos de Clientes
 inc-main.php> Conteudo de visualização dos Produtos cadastrados.
 inc-menu.php> Menu de acesso a outros links do site.
 
-Páginas interativas
+* **Páginas interativas**
 
 pag-blog.php> Página informativo.
 pag-historia.php> Hsitoria da empresa.
@@ -60,7 +60,7 @@ pag-contato.php> Informativo de como entrar em contato com a empresa.
 
 
 
-Administrador / Produtos
+* **Administrador / Produtos**
 
 admin-login.php> Acesso do Administrador
 admin-validar.php> Valida email e senha do administrador
@@ -73,13 +73,13 @@ produto-editar.php> Tela de alteração de dados do produto
 produto-excluir.php> Script do banco que deleta o produto no banco
 produto-atualizar.php> Salva os produtos cadastrados em cards na tela inicial.
 
-FIGMA: Caso de Uso - Fluxograma - DER (Diagrama)
+* **FIGMA: Caso de Uso - Fluxograma - DER (Diagrama)**
 Figma - Projeto Valeretto
 URL (Público Visualizar):
 
 https://www.figma.com/board/RgMUPqTYb7iAYrL9TCX8i7/CASO-DE-USO-E-FLUXOGRAMA?node-id=0-1&p=f&t=QxOB3TBdOoiQ9E9t-0
 
-FIGMA: MoodBoard - SiteMap - WireFrame/Prótotipo
+* **FIGMA: MoodBoard - SiteMap - WireFrame/Prótotipo**
 Figma - Projeto Valeretto
 URL (Público Visualizar):
 
@@ -90,7 +90,7 @@ https://www.figma.com/design/3wvLkSiIYYMDsv2H6IPb6L/PROJETO-INTEGRADOR--c%C3%B3p
 
 
 
-Como Executar o Projeto Localmente
+* **Como Executar o Projeto Localmente** 
 1.	Clone este repositório para a pasta pública do seu servidor local atráves do XAMPP: clique em start no Apache e no MySQL, aguarde conectar.
 2.	Importe o banco de dados utilizando o DBeaver, selecionando também o MySQL.
 3.	Acesse o projeto no VScode, abra o terminal na aba acima.
