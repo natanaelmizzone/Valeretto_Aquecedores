@@ -16,7 +16,7 @@ O sistema utiliza uma tabela, estruturada da seguinte forma:
 
 ---
 
-```
+
 Tabela de Produtos (tb_produto)
 CREATE TABLE tb_produto (
     id_produto INT AUTO_INCREMENT <span style="color:red">PRIMARY KEY</span>,
@@ -26,7 +26,7 @@ CREATE TABLE tb_produto (
     estoque_produto INT(5) NOT NULL,
     imagem_produto VARCHAR(255)
 );
-```
+
 
 ---
 
