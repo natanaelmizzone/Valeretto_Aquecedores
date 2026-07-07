@@ -1,0 +1,424 @@
+@font-face {
+    font-family: "poppins";
+    src: url(../../assets/fonts/Poppins-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "poppins-bold";
+    src: url(../../assets/fonts/Poppins-Bold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "poppins-semibold";
+    src: url(../../assets/fonts/Poppins-SemiBold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "inter-regular";
+    src: url(../../assets/fonts/Inter-Regular.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "inter-medium";
+    src: url(../../assets/fonts/Inter-Medium.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "inter-semibold";
+    src: url(../../assets/fonts/Inter-SemiBold.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "inter-bold";
+    src: url(../../assets/fonts/Inter-Bold.woff2) format(woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'inter-medium', sans-serif;
+}
+
+:root {
+    --bs-orange: #ec9744; 
+    --bs-dark-gray: #54595F;
+}
+
+.fw-inter-regular {
+    font-family: 'inter-regular', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.fw-inter-medium {
+    font-family: 'inter-medium', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.fw-inter-semibold {
+    font-family: 'inter-semibold', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.fw-inter-bold {
+    font-family: 'inter-bold', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.fs-7 {
+    font-size: 0.9rem !important;
+}
+
+.text-orange {
+    color: var(--bs-orange);
+}
+
+.hover-orange{
+    transition: all 0.20s ease-in-out;
+}
+
+.hover-orange:hover {
+    color: var(--bs-orange);
+}
+
+.text-dark-gray {
+    color: var(--bs-dark-gray);
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.link-orange {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.20s ease-in-out;
+}
+
+.link-orange:hover {
+    color: var(--bs-orange);
+}
+
+.link-dark-gray {
+    color: var(--bs-orange);
+    text-decoration: none;
+    transition: all 0.20s ease-in-out;
+}
+
+.link-dark-gray:hover{
+    color: var(--bs-dark-gray);
+}
+
+.btn-orange {
+    background-color: var(--bs-orange);
+    color: white;
+    transition: all 0.20s ease-in-out;
+}
+
+.btn-orange:hover {
+    background-color: #e48b32;
+    color: white;
+}
+
+.bg-dark-gray {
+    background-color: var(--bs-dark-gray);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo img {
+    width: 194px;
+    height: 60px;
+}
+
+.wpp-icon {
+    width: 4rem;
+    height: 4rem;
+    background-color: #25d366;
+    bottom: 3rem;
+    right: 3rem ;
+    transition: all 0.20s ease-in-out;
+    z-index: 3;
+}
+
+.wpp-icon:hover{
+    background-color: #22af56;
+    color: rgb(138, 138, 138);
+}
+
+.hero-homepage {
+    position: relative;
+    margin-bottom: -1px;
+    background-image: 
+    linear-gradient(
+      to top, 
+      #ffffff 0%,             
+      rgba(255, 255, 255, 0.5) 15%, 
+      rgba(255, 255, 255, 0) 40% 
+    ),
+    linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8) 0%,
+        rgba(0, 0, 0, 0.4) 50%,
+        rgba(0, 0, 0, 0) 100%
+    ),
+    url(../../assets/img/Aquecedor_solar_de_piscina_valeretto.jpg);
+}
+
+    .cards-hero {
+        margin-top: -4rem;
+    }
+
+    .icon {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .hover-lift {
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+
+    .hover-lift:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+    }
+
+    .img-contain {
+        height: 12rem;
+        object-fit: contain;
+    }
+
+    .line-clamp-2 {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        height: 2.6rem;
+    }
+
+    .categorias-img {
+        background-color: black;
+        width: 5rem;
+        height: 5rem;
+    }
+
+.testimonial-carousel {
+    position: relative;
+}
+
+.testimonial-carousel:before,
+.testimonial-carousel:after {
+    position: absolute;
+    top: 0;
+    width: 4rem;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.testimonial-carousel:before {
+    left: 0;
+    background: linear-gradient(to left, transparent, white);
+}
+
+.testimonial-carousel::after {
+    right: 0;
+    background: linear-gradient(to right, transparent, white);
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -3rem;
+    z-index: 1;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    visibility: visible !important;
+}
+
+.carousel-indicators button {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: var(--bs-orange);
+    border: none;
+    margin: 0.5rem;
+    opacity: 0.7;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: var(--bs-orange);
+    box-shadow: none !important;
+    outline: none !important;
+    transition: background-color 0.3s ease-in-out;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    max-width: content;
+    overflow: hidden;
+    padding: 4rem 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, transparent, white);
+}
+
+.logos::after {
+    right: 0;
+    background: linear-gradient(to right, transparent, white);
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 24s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 3.6rem;
+    filter: invert(100%);
+    margin: 0 2.4rem;
+}
+.categorias-img{
+
+    background-color: transparent;
+}
+.contact-section {
+    padding: 3rem 0 9rem 0;
+}
+
+.message-box {
+    resize: none;
+}
+
+.contact-cards {
+    margin-top: -9rem;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 12rem;
+}
+.line-clamp-4 {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        height: 5.2rem;
+}
+.about-banner {
+    position: relative;
+    margin-bottom: -1px;
+    background-image: 
+    linear-gradient(
+      to top, 
+      #ffffff 0%,             
+      rgba(255, 255, 255, 0.2) 15%, 
+      rgba(255, 255, 255, 0) 30% 
+    ),
+    linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8) 0%,
+        rgba(0, 0, 0, 0.4) 50%,
+        rgba(0, 0, 0, 0) 100%
+    ),
+    url(./uploads/Loja_aquecedor_solar.jpg);
+    background-size: cover;
+}
+
+.history-card {
+    height: auto;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.photo-img {
+    width: 7.9rem;
+    height: 7.9rem;
+}
+
+ @media (max-width:768px){
+
+    * {
+        
+    }
+
+    .w-75{
+        width: 100% !important;
+    }
+
+    .logo img {
+        width: auto;
+        height: 2.8rem;
+    }
+
+    .wpp-icon {
+        bottom: 2rem;
+        right: 2rem;
+    }
+
+    .hero-homepage {
+        background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8) 0%,
+        rgba(0, 0, 0, 0.4) 50%,
+        rgba(0, 0, 0, 0) 100%
+        ),
+        url(../../assets/img/Aquecedor_solar_de_piscina_valeretto.jpg);
+    }
+
+    .hero-homepage p {
+        font-size: 0.9rem;
+    }
+
+    .hero-homepage h1{
+        font-size: 2.4rem;
+    }
+
+    .content-hero {
+        text-align: center;
+        width: 100%;
+    }
+
+    .card-product {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-contain {
+        height: auto;
+    }
+} 

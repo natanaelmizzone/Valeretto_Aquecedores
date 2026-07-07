@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" x="0px" y="0px" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#959595;stroke-width:10;stroke-miterlimit:10;}
+	.st1{fill:#959595;}
+	.st2{font-family:'Arial-BoldMT';}
+	.st3{font-size:159.4311px;}
+	.st4{font-family:'Arial-Black';}
+	.st5{font-size:41.2803px;}
+</style>
+<path class="st0" d="M260.88,176.5c0,64.46-53.04,117.5-117.5,117.5s-117.5-53.04-117.5-117.5S78.92,59,143.38,59  c37.35,0,77.74,20.2,94.67,47.9"></path>
+<text transform="matrix(1 0 0 1 52.9199 216.7822)" class="st1 st2 st3">20</text>
+<text transform="matrix(1 0 0 1 75.3901 258.2236)" class="st1 st4 st5">ANOS</text>
+<rect x="246.1" y="108.95" class="st1" width="21.4" height="59.49"></rect>
+<rect x="246.1" y="111.57" transform="matrix(6.123234e-17 -1 1 6.123234e-17 115.4865 398.1197)" class="st1" width="21.4" height="59.49"></rect>
+</svg>
