@@ -58,20 +58,16 @@ while($linha = mysqli_fetch_assoc($resultado)){
             <a href="admin-sair.php" class="btn btn-secondary shadow-sm">Sair do Painel</a>
         </div>
     </div>
-   
         <hr>
-    
         <h1 class="fw-bold fs-2 mb-4 text-dark">Produto Registrado:</h1>
         
-        <!-- Alinhamento centralizado, borda suave e sombra leve na imagem -->
         <div class="d-flex justify-content-center mb-4">
             <img class="img-fluid object-fit-cover rounded shadow-sm border" 
                  src="<?=$foto; ?>" 
                  alt="<?=$nome; ?>" 
                  style="width: 250px; height: 250px;">
         </div>
-    
-        <!-- Informações organizadas com tipografia limpa e destaques -->
+        
         <div class="lead mb-2">
             <span class="text-muted small text-uppercase d-block">Produto</span>
             <strong class="fs-4 text-dark"><?=$nome; ?></strong>
