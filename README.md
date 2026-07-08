@@ -116,7 +116,7 @@ Algumas aplicações no Projeto:
 
 * **Proteção Cross-Site Scripting (XSS):** Todas as saídas de dados vindas de requisições ``URL ($_GET)`` ou banco de dados utilizam a função ``htmlspecialchars()`` antes de serem exibidas na tela.
 
-## Bibliografia/referência:
+## Bibliografia/Referência:
 ### Sites para estudo e aperfeiçoamento do código;
 
 * **HTML**
