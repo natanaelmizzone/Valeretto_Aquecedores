@@ -16,8 +16,6 @@ if ($email_digitado === $email_correto && $senha_digitada === $senha_correta) {
     session_start();
     // Cria uma variável de sessão e define como verdadeira para confirmar que o administrador está logado com sucesso
     $_SESSION['admin_logado'] = true;
-    // Armazena na sessão o nome fantasia do administrador para ser exibido nas páginas do painel
-    $_SESSION['admin_nome'] = "Administrador Geral";
     
     // Redireciona o navegador do usuário imediatamente para a página principal do painel administrativo
     header("Location: pag-admin.php");
