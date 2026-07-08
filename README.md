@@ -1,7 +1,7 @@
 ## VALERETTO
 
 # Sistema de Gestão e Cadastros de Produtos
-Este é um sistema web no formato ecommercer de **```GESTÃO DE PRODUTOS```**, está sendo desenvolvido em **``HTML``**, **``CSS``**, **``PHP``**, **``JAVASCRIPT``** e **``MySQLi``**, estilizado com **``Bootstrap``**, para documentação em **``MARKDOWN``** e estruturação **``FIGMA``**. O projeto conta com um painel administrativo protegido por sessões de login, definido para o gerenciamento de clientes e controle total de produtos ``**(CRUD)**``, também realizamos o software na ***IE*** ``Visual Studio - C# (CSharp)`` para cadastro e saida de produto diretamente com o administrador/vendedor.
+Este é um sistema web no formato ecommercer de **```GESTÃO DE PRODUTOS```**, está sendo desenvolvido em **``HTML``**, **``CSS``**, **``PHP``**, **``JAVASCRIPT``** e **``MySQLi``**, estilizado com **``Bootstrap``**, para documentação em **``MARKDOWN``** e estruturação **``FIGMA``**. O projeto conta com um painel administrativo protegido por sessões de login, definido para o gerenciamento o controle total de produtos ``**(CRUD)**``, também realizamos o software na ***IE*** ``Visual Studio - C# (CSharp)`` para cadastro e saida de produto diretamente com o administrador/vendedor.
 
 ## Funcionalidades Principais
  Área Administrativa (Painel Administrativo):
@@ -96,25 +96,26 @@ https://www.figma.com/design/3wvLkSiIYYMDsv2H6IPb6L/PROJETO-INTEGRADOR--c%C3%B3p
 
 # Como Executar o Projeto Localmente
   
-1.	Clone este repositório para a pasta pública do seu servidor local atráves do ``XAMPP``: clique em start no Apache e no ``MySQL``, aguarde conectar.
-2.	Importe o banco de dados utilizando o DBeaver, selecionando também o ``MySQL``.
+1.	Clone este repositório para a pasta pública do seu servidor local atráves do ``XAMPP``: clique em start no ``Apache`` e no ``MySQL``, aguarde conectar.
+2.	Importe o banco de dados utilizando o ``DBeaver``, selecionando também o ``MySQL``.
 3.	Acesse o projeto no ``VScode``, abra o terminal na aba acima.
 4.	Escreva o local do seu computador ``"php -S localhost:"``
 5.	Abra o navegador e acesse:
 o	Index: ```http://localhost/"numero que vai gerar"/index.php```
-o	Área do Admin: ```http://localhost/"numero que vai gerar"/admin-login.php```
-6.	Irá reproduzir o conteúdo no navegador.
+o	Área do Admin: ```http://localhost/"numero que vai gerar"/admin-login.php 
+o Ou apenas ```http://localhost/```
+7.	Irá reproduzir o conteúdo em conformidade no navegador.
    
 # Validação de segurança
 
 Para criação de um ecommercer deve-se utilizar todos os metodos mais seguros contra vazamento de informações.
 Algumas aplicações no Projeto:
 
-* **Prepared Statements (Consultas Preparadas):** Todos os comandos de inserção e busca utilizam mysqli_prepare e mysqli_stmt_bind_param. Isso neutraliza completamente ataques de ``SQL Injection``.
+* **Prepared Statements (Consultas Preparadas):** Todos os comandos de inserção e busca utilizam mysqli_prepare. Isso neutraliza completamente ataques de ``SQL Injection``, juntamente com JavaScript validando a segunrança do formulário contra inserção de <script>.
   
-* **Proteção de Páginas via Sessão:** Arquivos cruciais como ``pag-admin.php``, ``produto-excluir.php`` e ``produto-formulario.php`` incluem o script ``admin-trava.php`` na primeira linha. Se um usuário não autenticado tentar acessar o link diretamente, a execução é abortada ``(exit())`` e ele é redirecionado ao login.
+* **Proteção de Páginas via Sessão:** Arquivos cruciais como ``pag-admin.php``, ``produto-excluir.php``, ``produto-editar.php`` e ``produto-formulario.php``, ``produto-visualizar.php`` incluem o script ``admin-trava.php`` na primeira linha. Se um usuário não autenticado tentar acessar o link diretamente, a execução é abortada ``(exit())`` e ele é redirecionado ao login.
 
-* **Proteção Cross-Site Scripting (XSS):** Todas as saídas de dados vindas de requisições ``URL ($_GET)`` ou banco de dados utilizam a função ``htmlspecialchars()`` antes de serem exibidas na tela.
+* **Proteção Cross-Site Scripting (XSS):** Todas as saídas de dados vindas de requisições ``URL ($_GET)`` ou banco de dados utilizam a função ``htmlspecialchars()`` antes de serem exibidas na tela ao invés de utilizar apenas o ``if e else``.
 
 ## Bibliografia/Referência:
 ### Sites para estudo e aperfeiçoamento do código;
