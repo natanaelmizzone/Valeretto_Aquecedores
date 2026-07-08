@@ -111,7 +111,7 @@ o Ou apenas ```http://localhost/```
 Para criação de um ecommercer deve-se utilizar todos os metodos mais seguros contra vazamento de informações.
 Algumas aplicações no Projeto:
 
-* **Prepared Statements (Consultas Preparadas):** Todos os comandos de inserção e busca utilizam mysqli_prepare. Isso neutraliza completamente ataques de ``SQL Injection``, juntamente com JavaScript validando a segunrança do formulário contra inserção de <script>.
+* **Prepared Statements (Consultas Preparadas):** Todos os comandos de inserção e busca utilizam mysqli_prepare. Isso neutraliza completamente ataques de ``SQL Injection``, juntamente com ``JavaScript`` validando a segunrança do formulário contra inserção de ``<script>``.
   
 * **Proteção de Páginas via Sessão:** Arquivos cruciais como ``pag-admin.php``, ``produto-excluir.php``, ``produto-editar.php`` e ``produto-formulario.php``, ``produto-visualizar.php`` incluem o script ``admin-trava.php`` na primeira linha. Se um usuário não autenticado tentar acessar o link diretamente, a execução é abortada ``(exit())`` e ele é redirecionado ao login.
 
