@@ -4,7 +4,7 @@
 Este é um sistema web no formato ecommercer de **```GESTÃO DE PRODUTOS```**, está sendo desenvolvido em **``HTML``**, **``CSS``**, **``PHP``**, **``JAVASCRIPT``** e **``MySQLi``**, estilizado com **``Bootstrap``**, para documentação em **``MARKDOWN``** e estruturação **``FIGMA``**. O projeto conta com um painel administrativo protegido por sessões de login, definido para o gerenciamento de clientes e controle total de produtos ``**(CRUD)**``, também realizamos o software na ***IE*** ``Visual Studio - C# (CSharp)`` para cadastro e saida de produto diretamente com o administrador/vendedor.
 
 ## Funcionalidades Principais
-* ** Área Administrativa (Painel Administrativo):*
+# Área Administrativa (Painel Administrativo):
 
 - Autenticação independente para o Administrador.-
 
