@@ -20,7 +20,7 @@ O sistema utiliza uma tabela, estruturada da seguinte forma:
 
 ---
 
-```
+```sql
 Tabela de Produtos (tb_produto)
 CREATE TABLE tb_produto (
     id_produto INT AUTO_INCREMENT PRIMARY KEY,
