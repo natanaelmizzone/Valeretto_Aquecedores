@@ -8,11 +8,11 @@ Este é um sistema web no formato ecommercer de **```GESTÃO DE PRODUTOS```**, e
 
 - Autenticação independente para o Administrador.-
 
-###o	Bloqueio e trava de segurança por sessões **(session_start)** contra acessos diretos via URL.###
+-- Bloqueio e trava de segurança por sessões **(session_start)** contra acessos diretos via URL.
 
-###o	Listagem e cadastros em tempo real de todos os produtos.###
+-- Listagem e cadastros em tempo real de todos os produtos.
 
-###o	**CRUD** de Produtos: **Cadastrar**, **Visualizar**, **Editar** e **Excluir**, protegido contra usuários não autorizados.###
+--	**CRUD** de Produtos: **Cadastrar**, **Visualizar**, **Editar** e **Excluir**, protegido contra usuários não autorizados.
 
 # Estrutura do Banco de Dados (MySQL)
 
