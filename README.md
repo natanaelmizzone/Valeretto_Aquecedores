@@ -8,7 +8,7 @@ Este é um sistema web no formato ecommercer de **```GESTÃO DE PRODUTOS```**, e
 
 - Autenticação independente para o Administrador.-
 
--- Bloqueio e trava de segurança por sessões **(session_start)** contra acessos diretos via URL.
+-* Bloqueio e trava de segurança por sessões **(session_start)** contra acessos diretos via URL.
 
 -- Listagem e cadastros em tempo real de todos os produtos.
 
