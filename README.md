@@ -44,7 +44,7 @@ Inicio
 
 index.php>
 
-# Conteúdo de inclusão nas paginas
+#-Conteúdo de inclusão nas paginas:
 
 inc-conexao.php> Conexão com o Banco de Dados (MySQLi)
 inc-cabecalho.php> Inicio do site e links do Bootstrap
@@ -56,14 +56,14 @@ inc-depoimento.php> Depoimentos de Clientes
 inc-main.php> Conteudo de visualização dos Produtos cadastrados.
 inc-menu.php> Menu de acesso a outros links do site.
 
-# Páginas interativas
+#-Páginas interativas:
 
 pag-blog.php> Página informativo.
 pag-historia.php> Hsitoria da empresa.
 pag-contato.php> Informativo de como entrar em contato com a empresa.
 
 
-* **Administrador / Produtos**
+#-Administrador / Produtos:
 
 admin-login.php> Acesso do Administrador
 admin-validar.php> Valida email e senha do administrador
@@ -102,8 +102,9 @@ https://www.figma.com/design/3wvLkSiIYYMDsv2H6IPb6L/PROJETO-INTEGRADOR--c%C3%B3p
 4.	Escreva o local do seu computador ``"php -S localhost:"``
 5.	Abra o navegador e acesse:
 o	Index: ```http://localhost/"numero que vai gerar"/index.php```
-o	Área do Admin: ```http://localhost/"numero que vai gerar"/admin-login.php 
+o	Área do Admin: ```http://localhost/"numero que vai gerar"/admin-login.php ```
 o Ou apenas ```http://localhost/```
+
 7.	Irá reproduzir o conteúdo em conformidade no navegador.
    
 # Validação de segurança
@@ -118,7 +119,10 @@ Segue algumas aplicações decorrente na buscas de informações, aprendizado e 
 
 * **Proteção Cross-Site Scripting (XSS):** Todas as saídas de dados vindas de requisições ``URL ($_GET)`` ou banco de dados utilizam a função ``htmlspecialchars()`` antes de serem exibidas na tela ao invés de utilizar apenas o ``if e else``.
 
+*  **Validação de Formulário JavaScript:**  Mantive as validações com utilização de especificamente um ID ```(formProdutos)``` realizando validação de forma unica em ambos os campos ```CADASTRAR``` e ```EDITAR```, visto que os input's e formulários são identicos, o que se altera apenas no editar puxando as informação via PHP do banco de dadospara devidas atualizações.
+
 ## Bibliografia/Referência:
+
 ### Sites para estudo e aperfeiçoamento do código;
 
 * **HTML**
