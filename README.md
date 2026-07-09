@@ -10,7 +10,7 @@ Este é um sistema web no formato ecommercer de **```GESTÃO DE PRODUTOS```**, e
 
 - Bloqueio e trava de segurança por sessões **(session_start)**,  **(session_status)** e **$_SESSION**, contra acessos diretos via URL.
 
-- Listagem e cadastros em tempo real de todos os produtos (CRUD).
+- Listagem e cadastros em tempo real de todos os produtos **(CRUD)***.
 
 - **CRUD** de Produtos: **Cadastrar**, **Visualizar**, **Editar** e **Excluir**, protegido contra usuários não autorizados.
 
