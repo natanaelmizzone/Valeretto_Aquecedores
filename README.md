@@ -110,7 +110,7 @@ o Ou apenas ```http://localhost/```
 
 Para criação de um ecommercer deve-se utilizar todos os metodos mais seguros contra vazamento de informações.
 
-Realizamos algumas aplicações no Projeto fora do escopo atrvés de algumas pesquisas e estudos, buscando evoluir nosso aprendizado e agregar mais conhecimento ao todo:
+Realizamos algumas aplicações no Projeto fora do escopo através de algumas pesquisas e estudos, buscando evoluir nosso aprendizado e agregar mais conhecimento em um todo:
 
 * **Prepared Statements (Consultas Preparadas):** Todos os comandos de inserção e busca utilizam mysqli_prepare. Isso neutraliza completamente ataques de ``SQL Injection``, juntamente com ``JavaScript`` validando a segunrança do formulário contra inserção de ``<script>``.
   
