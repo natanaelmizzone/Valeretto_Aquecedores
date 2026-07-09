@@ -1,6 +1,6 @@
 ## VALERETTO
 
-# Sistema de Gestão e Cadastros de Produtos
+# Sistema WEB de Gestão de Produtos
 Este é um sistema web no formato ecommercer de **```GESTÃO DE PRODUTOS```**, está sendo desenvolvido em **``HTML``**, **``CSS``**, **``PHP``**, **``JAVASCRIPT``** e **``MySQLi``**, estilizado com **``Bootstrap``**, para documentação em **``MARKDOWN``** e estruturação **``FIGMA``**. O projeto conta com um painel administrativo protegido por sessões de login, definido para o gerenciamento o controle total de produtos ``**(CRUD)**``, também realizamos o software na ***IE*** ``Visual Studio - C# (CSharp)`` para cadastro e saida de produto diretamente com o administrador/vendedor.
 
 ## Funcionalidades Principais
